@@ -1,0 +1,266 @@
+* {margin:0;
+    ;
+    }
+
+html {background-color:white;
+    font-family: 'Inder', sans-serif;}
+
+
+
+
+
+
+                                               /* PARA TODAS */
+.logoPrincipal{display:inline-block;
+    position:relative;
+    top:-20px;
+    right: -18px;
+    }
+
+    .tituloLogo { font-size:36px;
+        display: inline-block;
+        font-family: 'Indie Flower', cursive;
+        
+        position: relative;
+        top:-30px
+        
+       
+       
+         }
+
+    
+
+    #logo { height: 4rem;
+            width: 4rem;
+            display:inline-block;
+            position:relative;
+            top:20px;
+           
+            }
+
+
+   
+
+.header {
+        
+        position: sticky ;
+        height: 4rem;
+        width:100%;
+        top: 0px;
+        background-color:rgba(255, 209, 140, 0.89);
+        margin-top:0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        z-index: 3;}
+
+
+
+ul{display:inline-block;
+    list-style: none;
+    
+position: relative;
+top:-30px}
+
+nav {height: 5rem;
+    color: black ;
+font-size: 16px;
+
+}
+
+        nav ul{list-style: none;
+        font-size: 0;
+        }
+        
+        
+        nav li {display: inline;
+            width:50%;
+            position:relative;
+            font-size: 20px;
+        }
+
+        nav ul ul{ position: absolute;
+                display:none;
+            left:-50px;
+            background-color:khaki;}
+
+        nav ul ul li{display:block;}
+
+        nav ul li:hover ul {display:block;}
+
+a{color: black;
+text-decoration: none;
+padding: 20px;}
+
+
+
+#wasap {height:2.5rem;
+width:2.5rem;
+position:fixed;
+bottom: 0.5rem;
+right:0.5rem}
+
+
+
+.footer {color:#180c4b
+; font-size: 30px ;
+background-color: rgba(212, 110, 84, 0.445);
+text-decoration: none;
+height: 3rem;
+width: 100%;
+;
+display:inline-block;
+
+bottom:0;
+
+}
+
+li.footerMenu {display: inline-block;
+bottom:0;
+}
+
+                                                          /*INDEX*/
+
+
+.content{height:80rem}
+
+
+.principalText {background-color: rgba(115, 164, 220, 0.6);
+    font-size: 4rem;
+    display:flex;
+    overflow:visible;
+    position: relative;
+    top:3rem;
+    left:2rem;
+
+height:11rem;
+width:20rem;
+padding: 2rem
+}
+
+.firstImage {
+    display:inline-block;
+position:relative;
+top:-17rem;
+left:45rem}
+
+
+img.osito {height:50rem;
+
+}
+
+.secondImage{display:inline-block;
+position: relative;
+top:-74rem;
+left: 20rem;
+z-index: 2;}
+img.coco {height:60rem}
+
+.baseMunecos{height:8rem;
+    width:12rem;
+border-radius: 50%;
+
+
+position:relative;
+top:-94rem;
+left:34rem;
+z-index: 1;
+background: rgb(236, 150, 21);
+background: linear-gradient(90deg, rgba(236, 150, 21,0.7) 0%, rgba(236, 150, 21,1) 50%, rgba(236, 150, 21,0.7035189075630253) 100%); }
+
+.bloqueDivisor {width:100%;
+height:12rem;
+background-color: #8659B3;
+display:inline-block;
+position:relative;
+top:-80rem}
+
+.dato {color:#A6FFC3;  
+    font-size: 40px;
+background-color:#B973FF;
+border-radius: 0.5rem;
+height:10.5rem;
+width:20rem;
+position: relative;
+top:0.5rem;
+text-align: center;
+margin-left: 4rem;
+display: inline-block;
+
+
+}
+
+
+
+                                                        /*SOBRE MI*/
+
+#SobreMi{display:block;
+    
+    height:1rem;
+    margin-bottom: 2rem;}
+
+.aboutSection {color:red;
+font-size: 30px;
+display: block;
+height: 40rem;}
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                          
+                                                          
+                                                          
+                                                          /*CONTACTO*/
+
+.contacto {display:block;
+    position: relative;
+    left: 60%;
+    width: 30rem;
+    border: red 2px dashed;
+}
+
+
+.formulario {border: solid black 3px;
+    border-radius: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;}
+
+
+
+    
+        h2 {color:black ;
+            text-align: center}
+
+
+
+
+
+
+#buttonIndex {border:solid 2px blue;
+padding:150px;
+margin-left: 3rem;
+height:7rem;
+width: 5rem
+}
+
+.muneco2 {position:relative;
+left:55rem;}
+
+.muneco4 {position:relative;
+    left:55rem;}
+
+
+                                                        /*ANIMACIONES*/
+
+
+
+.animate__animated.animate__flip {
+        --animate-duration: 2s;
+        animation-delay: 0.25s;
+      }
+
+
+.animate__animated.animate__fadeIn { --animate-duration:6s;
+animation-delay:0.5s}
+
+
